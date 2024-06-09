@@ -1,0 +1,20 @@
+List of TODOS for Authentication Microservice
+TODO: Password reset functionality (email)
+TODO: user_type must be more detailed.
+TODO: token'lar cevapta JSON olarak değil de res.cookie olarak dönmeli. Ve httpOnly olmalı. Sebebi: XSS saldırıları.
+TODO: API bağlantıları için model'de bir yer açılacak. (Update, Delete)
+TODO: passive.is and passive.type['DELETED', 'BLOCKED', 'SUSPENDED'] değerlerine göre isteklere cevapları düzenle bir middleware ile kontrol et.
+
+User Information,
+name, surname, email, phone number, project coordinate, project name, project design
+- name
+- surname
+- email
+- password
+- project coordinate
+- project name
+- project design
+- profession
+- phone number(? - Payment)
+- identity number(? - Payment)
+- address(? - Payment)

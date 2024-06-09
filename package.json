@@ -1,0 +1,32 @@
+{
+  "name": "service-auth",
+  "description": "An authentication microservice for Kend App",
+  "version": "0.2.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "gbuild": "gcloud builds submit --tag us-central1-docker.pkg.dev/kend-400012/kend-images/auth-image:latest .",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Kend App - Poliark Inc.",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cors": "^2.8.5",
+    "crc": "^3.8.0",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-rate-limit": "^6.7.0",
+    "helmet": "^4.6.0",
+    "http-status": "^1.5.0",
+    "i18n": "^0.15.1",
+    "joi": "^17.4.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^6.0.12",
+    "nodemon": "^2.0.15",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {}
+}

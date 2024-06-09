@@ -1,0 +1,22 @@
+{
+	"missing_language": "Dil seçeneğini bulamadık. Dil ayarlarınızı kontrol edin.(tr, en)",
+	"versionNotMatched": "Uygulamayı kullanabilmeniz için lütfen uygulamamızı güncelleyiniz, teşekkürler!",
+	"requestRateLimitWarning": "Çok fazla işlem denediniz! Hesabınızın bloke olmaması için lütfen bekleyiniz.",
+	"unAuthorized": "İşlem tamamlanamadı, yetkiniz yok!",
+	"blocked": "İşlem tamamlanamadı, hesabınız bloke edilmiş!",
+	"deleted": "İşlem tamamlanamadı, hesabınız silinmiş!",
+	"suspended": "İşlem tamamlanamadı, hesabınız askıya alınmış!",
+	"loginError": "Kullanıcı girişi için bilgiler hatalı.",
+	"tokenMalformed": "İşlem için yetkiniz bulunmamaktadır.",
+	"invalidId": "İşleme devam edemezsiniz, id bilgisi hatalı.",
+	"locationHeadersNotFound": "Konum bilgileri bulunamadı.",
+	"userNotFound": "Kullanıcı(lar) bulunamadı.",
+	"user_not_active": "İşlem için yetkiniz yok, kullanıcı aktif değil.",
+	"userCreateError": "Kullanıcı(lar) oluşturulamadı.",
+	"userCreateTenantReqError": "Kullanıcı(lar) oluşturulamadı. Firma sahibi bilgisi zorunludur.",
+	"userUpdateError": "Kullanıcı(lar) güncellenemedi.",
+	"userDeleteError": "Kullanıcı(lar) silinemedi.",
+	"userActiveUpdateError": "Kullanıcı(lar) aktiflik durumu güncellenemedi.",
+	"passiveTypeAlreadySet": "Kullanıcı(lar) zaten belirtmiş olduğunuz pasiflik durumunda.",
+	"valideteCantBeEmpty": "valideteCantBeEmpty"
+}

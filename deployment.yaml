@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: auth-gke
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: auth
+  template:
+    metadata:
+      labels:
+        app: auth
+    spec:
+      containers:
+        - name: auth-app
+          image: us-central1-docker.pkg.dev/kend-400012/service-auth/service-auth-gke:latest
+          ports:
+            - containerPort: 8082
+          env:
+            - name: PORT
+              value: "8082"
+          resources:
+            requests:
+              memory: "1Gi"
+              cpu: "500m"
+              ephemeral-storage: "1Gi"
+            limits:
+              memory: "1Gi"
+              cpu: "500m"
+              ephemeral-storage: "1Gi"
+
